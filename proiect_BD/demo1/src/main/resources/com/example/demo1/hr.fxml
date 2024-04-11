@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #e7f5fe;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.Hr">
+    <children>
+        <Button fx:id="inapoiButton" layoutX="456.0" layoutY="326.0" mnemonicParsing="false" onAction="#inapoiButtonOnAction" prefHeight="36.0" prefWidth="95.0" style="-fx-background-color: #498fba;" text="Inapoi" textFill="WHITE">
+            <font>
+                <Font name="Bookman Old Style Bold" size="20.0" />
+            </font>
+        </Button>
+        <Button fx:id="BGRUDPHR" layoutX="40.0" layoutY="165.0" mnemonicParsing="false" onAction="#BGRUDPHROnAction" prefHeight="31.0" prefWidth="214.0" style="-fx-background-color: #498fba;" text="Date personale" textAlignment="CENTER" textFill="#fcf7f7" wrapText="true">
+            <font>
+                <Font name="Bookman Old Style Bold" size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="BGRUDAHR" layoutX="40.0" layoutY="310.0" mnemonicParsing="false" onAction="#BGRUDAHROnAction" prefHeight="31.0" prefWidth="214.0" style="-fx-background-color: #498fba;" text="Date angajati" textAlignment="CENTER" textFill="#fcf7f7" wrapText="true">
+            <font>
+                <Font name="Bookman Old Style Bold" size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="BOFCSAHR" layoutX="358.0" layoutY="238.0" mnemonicParsing="false" onAction="#BOFCSAHROnAction" prefHeight="31.0" prefWidth="214.0" style="-fx-background-color: #498fba;" text="Salariu Angajati" textAlignment="CENTER" textFill="#fcf7f7" wrapText="true">
+            <font>
+                <Font name="Bookman Old Style Bold" size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="BOFCSHR" layoutX="358.0" layoutY="165.0" mnemonicParsing="false" onAction="#BOFCSHROnAction" prefHeight="31.0" prefWidth="214.0" style="-fx-background-color: #498fba;" text="Salariu" textAlignment="CENTER" textFill="#fcf7f7" wrapText="true">
+            <font>
+                <Font name="Bookman Old Style Bold" size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="BGRUMDHR1" layoutX="40.0" layoutY="238.0" mnemonicParsing="false" onAction="#BGRUMDHR1OnAction" prefHeight="31.0" prefWidth="214.0" style="-fx-background-color: #498fba;" text="Modificare Date" textAlignment="CENTER" textFill="#fcf7f7" wrapText="true">
+            <font>
+                <Font name="Bookman Old Style Bold" size="14.0" />
+            </font>
+        </Button>
+        <AnchorPane prefHeight="130.0" prefWidth="600.0" style="-fx-background-color: #498fba;">
+            <children>
+                <Button fx:id="BOFC" layoutX="320.0" layoutY="65.0" mnemonicParsing="false" onAction="#BOFConAction" prefHeight="46.0" prefWidth="258.0" style="-fx-background-color: #e7f5fe;" text="Operatii financiar contabile" textAlignment="CENTER" textFill="#0e64a1" wrapText="true">
+                    <font>
+                        <Font name="Bookman Old Style Bold" size="14.0" />
+                    </font>
+                </Button>
+                <Button fx:id="BGRU" layoutX="25.0" layoutY="65.0" mnemonicParsing="false" onAction="#BGRUonAction" prefHeight="46.0" prefWidth="258.0" style="-fx-background-color: #e7f5fe;" text="Gestiunea resurselor umane  " textAlignment="CENTER" textFill="#0e64a1" wrapText="true">
+                    <font>
+                        <Font name="Bookman Old Style Bold" size="14.0" />
+                    </font>
+                </Button>
+                <Label fx:id="numeLabel" layoutX="22.0" layoutY="14.0" prefHeight="36.0" prefWidth="263.0" textFill="WHITE">
+                    <font>
+                        <Font name="Bookman Old Style Bold" size="20.0" />
+                    </font>
+                </Label>
+                <Button fx:id="inapoiMeniuButton" layoutX="449.0" layoutY="14.0" mnemonicParsing="false" onAction="#inapoiMeniuButtonOnAction" prefHeight="36.0" prefWidth="95.0" style="-fx-background-color: #e7f5fe;" text="Inapoi" textFill="#0e64a1">
+                    <font>
+                        <Font name="Bookman Old Style Bold" size="20.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

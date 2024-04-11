@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="250.0" style="-fx-background-color: #498fba;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="23.0" layoutY="63.0" prefHeight="119.0" prefWidth="204.0" text="POLICLINICALIFE-CARE" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Bookman Old Style" size="30.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="myimg" fitHeight="215.0" fitWidth="212.0" layoutX="19.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../poli.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="350.0" style="-fx-background-color: #e7f5fe;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="29.0" layoutY="75.0" text="CNP">
+               <font>
+                  <Font name="Bookman Old Style" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="cnpTextField" layoutX="108.0" layoutY="72.0" prefHeight="30.0" prefWidth="215.0" promptText="cnp">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="parolaPasswordField" layoutX="108.0" layoutY="136.0" prefHeight="30.0" prefWidth="216.0" promptText="parola">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="loginButton" layoutX="38.0" layoutY="224.0" mnemonicParsing="false" onAction="#loginButtonOnAction" prefHeight="44.0" prefWidth="273.0" style="-fx-background-color: #498fba;" text="AUTENTIFICARE" textFill="WHITE">
+               <font>
+                  <Font name="Bookman Old Style" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="cancelButton" layoutX="38.0" layoutY="293.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="44.0" prefWidth="273.0" style="-fx-background-color: #498fba;" text="ANULARE" textFill="WHITE">
+               <font>
+                  <Font name="Bookman Old Style" size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="loginMessageLabel" layoutX="45.0" layoutY="187.0" prefHeight="26.0" prefWidth="258.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="29.0" layoutY="139.0" prefHeight="24.0" prefWidth="72.0" text="Parola">
+               <font>
+                  <Font name="Bookman Old Style" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="errorLabel" layoutX="100.0" layoutY="20.0" textFill="red" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

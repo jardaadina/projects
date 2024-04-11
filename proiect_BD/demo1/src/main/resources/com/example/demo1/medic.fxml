@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="613.0" style="-fx-background-color: #e7f5fe;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.Medic">
+    <children>
+        <Button fx:id="inapoiButton" layoutX="495.0" layoutY="349.0" mnemonicParsing="false" onAction="#inapoiButtonOnAction" prefHeight="36.0" prefWidth="95.0" style="-fx-background-color: #498fba;" text="Inapoi" textFill="WHITE">
+            <font>
+                <Font name="Bookman Old Style Bold" size="20.0" />
+            </font>
+        </Button>
+        <Button fx:id="BGRUDPM" layoutX="219.0" layoutY="97.0" mnemonicParsing="false" onAction="#BGRUDPMOnAction" prefHeight="58.0" prefWidth="143.0" style="-fx-background-color: #498fba;" text="Date Personale" textAlignment="CENTER" textFill="#fcf7f7" wrapText="true">
+            <font>
+                <Font name="Bookman Old Style Bold" size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="BGAOVPM" layoutX="377.0" layoutY="281.0" mnemonicParsing="false" onAction="#BGAOVPMOnAction" prefHeight="58.0" prefWidth="143.0" style="-fx-background-color: #498fba;" text="Vizualizare Programari" textAlignment="CENTER" textFill="#fcf7f7" wrapText="true">
+            <font>
+                <Font name="Bookman Old Style Bold" size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="BGAOGRMM" layoutX="219.0" layoutY="281.0" mnemonicParsing="false" onAction="#BGAOGRMMOnAction" prefHeight="58.0" prefWidth="143.0" style="-fx-background-color: #498fba;" text="Gestiune Raport Medical" textAlignment="CENTER" textFill="#fcf7f7" wrapText="true">
+            <font>
+                <Font name="Bookman Old Style Bold" size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="BGRUMDPM" layoutX="377.0" layoutY="97.0" mnemonicParsing="false" onAction="#BGRUMDPMOnAction" prefHeight="58.0" prefWidth="143.0" style="-fx-background-color: #498fba;" text="Modificare Date Personale" textAlignment="CENTER" textFill="#fcf7f7" wrapText="true">
+            <font>
+                <Font name="Bookman Old Style Bold" size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="BOFCPPM" layoutX="327.0" layoutY="191.0" mnemonicParsing="false" onAction="#BOFCPPMOnAction" prefHeight="58.0" prefWidth="97.0" style="-fx-background-color: #498fba;" text="Profit Personal" textAlignment="CENTER" textFill="#fcf7f7" wrapText="true">
+            <font>
+                <Font name="Bookman Old Style Bold" size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="BOFCPAPM" layoutX="219.0" layoutY="191.0" mnemonicParsing="false" onAction="#BOFCPAPMOnAction" prefHeight="58.0" prefWidth="97.0" style="-fx-background-color: #498fba;" text="Profit Adus Policlinicii" textAlignment="CENTER" textFill="#fcf7f7" wrapText="true">
+            <font>
+                <Font name="Bookman Old Style Bold" size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="BOFCSM" layoutX="434.0" layoutY="191.0" mnemonicParsing="false" onAction="#BOFCSMOnAction" prefHeight="58.0" prefWidth="70.0" style="-fx-background-color: #498fba;" text="Salariu" textAlignment="CENTER" textFill="#fcf7f7" wrapText="true">
+            <font>
+                <Font name="Bookman Old Style Bold" size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="inapoiMeniuButton" layoutX="495.0" layoutY="14.0" mnemonicParsing="false" onAction="#inapoiMeniuButtonOnAction" prefHeight="36.0" prefWidth="95.0" style="-fx-background-color: #498fba;" text="Inapoi" textFill="WHITE">
+            <font>
+                <Font name="Bookman Old Style Bold" size="20.0" />
+            </font>
+        </Button>
+        <AnchorPane layoutY="-1.0" prefHeight="400.0" prefWidth="190.0" style="-fx-background-color: #498fba;">
+            <children>
+                <Button fx:id="BGAO" layoutX="16.0" layoutY="281.0" mnemonicParsing="false" onAction="#BGAonAction" prefHeight="58.0" prefWidth="180.0" style="-fx-background-color: #e7f5fe;" text="Gestiunea activitatilor operationale  " textAlignment="CENTER" textFill="#0e64a1" wrapText="true">
+                    <font>
+                        <Font name="Bookman Old Style Bold" size="14.0" />
+                    </font>
+                </Button>
+                <Button fx:id="BGRU" layoutX="16.0" layoutY="97.0" mnemonicParsing="false" onAction="#BGRUonAction" prefHeight="58.0" prefWidth="180.0" style="-fx-background-color: #e7f5fe;" text="Gestiunea resurselor umane  " textAlignment="CENTER" textFill="#0e64a1" wrapText="true">
+                    <font>
+                        <Font name="Bookman Old Style Bold" size="14.0" />
+                    </font>
+                </Button>
+                <Button fx:id="BOFC" layoutX="16.0" layoutY="189.0" mnemonicParsing="false" onAction="#BOFConAction" prefHeight="58.0" prefWidth="180.0" style="-fx-background-color: #e7f5fe;" text="Operatii financiar contabile" textAlignment="CENTER" textFill="#0e64a1" wrapText="true">
+                    <font>
+                        <Font name="Bookman Old Style Bold" size="14.0" />
+                    </font>
+                </Button>
+                <Label fx:id="numeLabel" layoutX="4.0" layoutY="37.0" prefHeight="37.0" prefWidth="204.0" textFill="WHITE">
+                    <font>
+                        <Font name="Bookman Old Style Bold" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <Button fx:id="salariuOra" layoutX="520.0" layoutY="191.0" mnemonicParsing="false" onAction="#salariuOraOnAction" prefHeight="58.0" prefWidth="70.0" style="-fx-background-color: #498fba;" text="Salariu/Ora" textAlignment="CENTER" textFill="#fcf7f7" wrapText="true">
+            <font>
+                <Font name="Bookman Old Style Bold" size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

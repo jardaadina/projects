@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="tabelRapoarte" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #e7f5fe;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.VizualizareRapoarteMedic">
+    <children>
+        <Text fill="#0e64a1" layoutX="69.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rapoarte Medicale">
+            <font>
+                <Font name="Bookman Old Style Bold" size="48.0" />
+            </font>
+        </Text>
+        <Button fx:id="inapoiProgramari" layoutX="471.0" layoutY="340.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: #498fba;" text="Inapoi" textFill="WHITE">
+            <font>
+                <Font name="Bookman Old Style Bold" size="20.0" />
+            </font>
+        </Button>
+        <TableView fx:id="raportPacient" layoutY="93.0" prefHeight="218.0" prefWidth="600.0">
+            <columns>
+                <TableColumn fx:id="nume" prefWidth="62.4000244140625" style="-fx-background-color: #498fba;" text="NUME" />
+                <TableColumn fx:id="prenume" minWidth="0.0" prefWidth="67.20001220703125" style="-fx-background-color: #498fba;" text="PRENUME" />
+                <TableColumn fx:id="continut" minWidth="0.0" prefWidth="333.60003662109375" style="-fx-background-color: #498fba;" text="CONTINUT" />
+                <TableColumn fx:id="id_raport" minWidth="0.0" prefWidth="72.79998779296875" style="-fx-background-color: #498fba;" text="ID_RAPORT" />
+                <TableColumn fx:id="parafa" prefWidth="68.79998779296875" style="-fx-background-color: #498fba;" text="PARAFA" />
+            </columns>
+        </TableView>
+        <Button fx:id="valideaza" layoutX="333.0" layoutY="339.0" mnemonicParsing="false" onAction="#valideazaOnAction" prefHeight="37.0" prefWidth="126.0" style="-fx-background-color: #498fba;" text="Valideaza" textFill="WHITE">
+            <font>
+                <Font name="Bookman Old Style Bold" size="20.0" />
+            </font>
+        </Button>
+        <Label fx:id="text" layoutX="69.0" layoutY="316.0" prefHeight="77.0" prefWidth="213.0" />
+    </children>
+</AnchorPane>

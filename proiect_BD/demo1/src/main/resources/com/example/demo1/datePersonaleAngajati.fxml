@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="126.0" prefWidth="1162.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.DatePersonaleAngajati">
+   <children>
+      <AnchorPane layoutX="-1.0" prefHeight="306.0" prefWidth="1158.0" style="-fx-background-color: #e7f5fe;">
+         <children>
+            <TableView fx:id="tabel" layoutX="3.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="307.0" prefWidth="1150.0">
+               <columns>
+                  <TableColumn fx:id="tabelNume" prefWidth="75.0" style="-fx-background-color: #498fba;" text="NUME" />
+                  <TableColumn fx:id="tabelPrenume" prefWidth="75.0" style="-fx-background-color: #498fba;" text="PRENUME" />
+                  <TableColumn fx:id="tabelCNP" prefWidth="112.00006103515625" style="-fx-background-color: #498fba;" text="CNP" />
+                  <TableColumn fx:id="tabelRol" prefWidth="76.800048828125" style="-fx-background-color: #498fba;" text="ROL" />
+                  <TableColumn fx:id="tabelEmail" prefWidth="176.79998779296875" style="-fx-background-color: #498fba;" text="EMAIL" />
+                  <TableColumn fx:id="tabelAdresa" minWidth="0.0" prefWidth="116.7999267578125" style="-fx-background-color: #498fba;" text="ADRESA" />
+                  <TableColumn fx:id="tabelTelefon" maxWidth="7000.0" minWidth="0.0" prefWidth="94.39990234375" style="-fx-background-color: #498fba;" text="TELEFON" />
+                  <TableColumn fx:id="tabelIban" minWidth="0.0" prefWidth="180.0" style="-fx-background-color: #498fba;" text="IBAN" />
+                  <TableColumn fx:id="tabelNrContract" minWidth="0.0" prefWidth="124.8001708984375" style="-fx-background-color: #498fba;" text="NR CONTRACT" />
+                  <TableColumn fx:id="tabelData" minWidth="0.0" prefWidth="115.19992675781259" style="-fx-background-color: #498fba;" text="DATA ANGAJARII" />
+               </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

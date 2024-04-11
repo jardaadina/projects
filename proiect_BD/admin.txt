@@ -1,0 +1,95 @@
+ /*  @FXML
+    private Button BDPADMIN;
+    @FXML
+    private Button BMDPADMIN;
+    @FXML
+    private Button BADSADMIN;
+    @FXML
+    private Button BMDSADMIN;
+    @FXML
+    private Button BSDSADMIN;
+
+
+    public void initialize()
+    {
+        hideButtonBDPADMIN();
+        hideButtonBMDPADMIN();
+        hideButtonBADSADMIN();
+        hideButtonBMDSADMIN();
+        hideButtonBSDSADMIN();
+    }
+
+    public void BDPADMINnAction(ActionEvent e)
+    {
+        hideButtonBDPADMIN();
+    }
+
+    private void hideButtonBDPADMIN()
+    {
+        boolean isBDPADMINoNPressed = BDPADMIN.isArmed() || BDPADMIN.isPressed();
+
+        BMDPADMIN.setVisible(!isBDPADMINoNPressed);
+        BADSADMIN.setVisible(!isBDPADMINoNPressed);
+        BMDSADMIN.setVisible(!isBDPADMINoNPressed);
+        BSDSADMIN.setVisible(!isBDPADMINoNPressed);
+    }
+    public void BMDPADMINnAction(ActionEvent e)
+    {
+        hideButtonBMDPADMIN();
+    }
+
+    private void hideButtonBMDPADMIN()
+    {
+        boolean isBMDPADMINPressed = BMDPADMIN.isArmed() || BMDPADMIN.isPressed();
+
+        BDPADMIN.setVisible(!isBMDPADMINPressed);
+        BADSADMIN.setVisible(!isBMDPADMINPressed);
+        BMDSADMIN.setVisible(!isBMDPADMINPressed);
+        BSDSADMIN.setVisible(!isBMDPADMINPressed);
+    }
+
+    public void BADSADMINnAction(ActionEvent e)
+    {
+        hideButtonBADSADMIN();
+    }
+
+    private void hideButtonBADSADMIN()
+    {
+        boolean isBADSADMINressed = BADSADMIN.isArmed() || BADSADMIN.isPressed();
+
+        BDPADMIN.setVisible(!isBADSADMINressed);
+        BMDPADMIN.setVisible(!isBADSADMINressed);
+        BMDSADMIN.setVisible(!isBADSADMINressed);
+        BSDSADMIN.setVisible(!isBADSADMINressed);
+    }
+
+
+    public void BMDSADMINnAction(ActionEvent e)
+    {
+        hideButtonBMDSADMIN();
+    }
+
+    private void hideButtonBMDSADMIN()
+    {
+        boolean isBMDASADMINPressed = BMDSADMIN.isArmed() || BMDSADMIN.isPressed();
+
+        BDPADMIN.setVisible(!isBMDASADMINPressed);
+        BMDPADMIN.setVisible(!isBMDASADMINPressed);
+        BADSADMIN.setVisible(!isBMDASADMINPressed);
+        BSDSADMIN.setVisible(!isBMDASADMINPressed);
+    }
+
+    public void BSDASADMINnAction(ActionEvent e)
+    {
+        hideButtonBSDSADMIN();
+    }
+
+    private void hideButtonBSDSADMIN()
+    {
+        boolean isBSDSADMINPressed = BSDSADMIN.isArmed() || BSDSADMIN.isPressed();
+
+        BDPADMIN.setVisible(!isBSDSADMINPressed);
+        BMDPADMIN.setVisible(!isBSDSADMINPressed);
+        BADSADMIN.setVisible(!isBSDSADMINPressed);
+        BMDSADMIN.setVisible(!isBSDSADMINPressed);
+    }*/

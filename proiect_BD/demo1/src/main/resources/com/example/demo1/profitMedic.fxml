@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="308.0" prefWidth="488.0" style="-fx-background-color: #e7f5fe;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.ProfitMedic">
+    <children>
+        <Text fill="#0e64a1" fontSmoothingType="LCD" layoutX="36.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-background-color: #498fba;" text="PROFIT MEDIC" wrappingWidth="430.0">
+            <font>
+                <Font name="Bookman Old Style Bold" size="48.0" />
+            </font>
+        </Text>
+        <Button fx:id="anuleaza" layoutX="338.0" layoutY="234.0" mnemonicParsing="false" onAction="#anuleazaOnAction" prefHeight="42.0" prefWidth="114.0" style="-fx-background-color: #498fba;" text="ANULEAZA" textFill="WHITE">
+            <font>
+                <Font name="Bookman Old Style Bold" size="12.0" />
+            </font>
+        </Button>
+        <Text layoutX="91.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="180.53681182861328" />
+        <Label fx:id="profitMedic" layoutX="69.0" layoutY="119.0" prefHeight="127.0" prefWidth="224.0" textFill="#0e64a1">
+            <font>
+                <Font size="48.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="580.0" prefWidth="712.0" style="-fx-background-color: #e7f5fe;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.AdaugaDateSistem">
+    <children>
+        <Button fx:id="updateADM" layoutX="508.0" layoutY="460.0" mnemonicParsing="false" onAction="#updateADMOnAction" prefHeight="42.0" prefWidth="134.0" style="-fx-background-color: #498fba;" text="ADAUGA" textFill="WHITE">
+            <font>
+                <Font name="Bookman Old Style Bold" size="12.0" />
+            </font>
+        </Button>
+        <AnchorPane prefHeight="580.0" prefWidth="211.0" style="-fx-background-color: #498fba;" AnchorPane.leftAnchor="0.0">
+            <children>
+                <TextField fx:id="numeADM" layoutX="30.0" layoutY="64.0" prefHeight="32.0" prefWidth="150.0" promptText=" nume" />
+                <TextField fx:id="prenumeADM" layoutX="28.0" layoutY="107.0" prefHeight="32.0" prefWidth="150.0" promptText="prenume" />
+                <TextField fx:id="parolaADM" layoutX="29.0" layoutY="156.0" prefHeight="32.0" prefWidth="150.0" promptText="parola" />
+                <TextField fx:id="cnpADM" layoutX="30.0" layoutY="207.0" prefHeight="32.0" prefWidth="150.0" promptText="CNP" />
+                <TextField fx:id="emailADM" layoutX="29.0" layoutY="350.0" prefHeight="32.0" prefWidth="150.0" promptText="email" />
+                <TextField fx:id="telADM" layoutX="29.0" layoutY="301.0" prefHeight="32.0" prefWidth="150.0" promptText="numar de telefon" />
+                <TextField fx:id="adresaADM" layoutX="29.0" layoutY="258.0" prefHeight="32.0" prefWidth="150.0" promptText="adresa" />
+                <TextField fx:id="ibanADM" layoutX="29.0" layoutY="400.0" prefHeight="32.0" prefWidth="150.0" promptText="iban" />
+                <TextField fx:id="rolADM" layoutX="30.0" layoutY="452.0" prefHeight="32.0" prefWidth="150.0" promptText="rol" />
+                <TextField fx:id="contractADM" layoutX="29.0" layoutY="505.0" prefHeight="32.0" prefWidth="150.0" promptText="numar contract" />
+            <TextField fx:id="idADM" layoutX="29.0" layoutY="21.0" prefHeight="32.0" prefWidth="150.0" promptText="id" />
+            </children>
+        </AnchorPane>
+        <Button fx:id="anuleazaADS" layoutX="508.0" layoutY="512.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="42.0" prefWidth="134.0" style="-fx-background-color: #498fba;" text="ANULEAZA" textFill="WHITE">
+            <font>
+                <Font name="Bookman Old Style Bold" size="12.0" />
+            </font>
+        </Button>
+      <AnchorPane layoutX="228.0" prefHeight="580.0" prefWidth="211.0" style="-fx-background-color: #498fba;">
+         <children>
+            <TextField fx:id="salariuADM" layoutX="29.0" layoutY="22.0" prefHeight="32.0" prefWidth="150.0" promptText="salariu" />
+            <TextField fx:id="specialitateADM" layoutX="29.0" layoutY="68.0" prefHeight="32.0" prefWidth="150.0" promptText="specialitate" />
+            <TextField fx:id="gradADM" layoutX="29.0" layoutY="112.0" prefHeight="32.0" prefWidth="150.0" promptText="grad medic" />
+            <TextField fx:id="competenteADM" layoutX="29.0" layoutY="158.0" prefHeight="32.0" prefWidth="150.0" promptText="competente" />
+            <TextField fx:id="postADM" layoutX="29.0" layoutY="297.0" prefHeight="32.0" prefWidth="150.0" promptText="post didactic" />
+            <TextField fx:id="titluADM" layoutX="29.0" layoutY="251.0" prefHeight="32.0" prefWidth="150.0" promptText="titlu stiintific" />
+            <TextField fx:id="codADM" layoutX="29.0" layoutY="205.0" prefHeight="32.0" prefWidth="150.0" promptText="cod parafa" />
+            <TextField fx:id="procentADM" layoutX="30.0" layoutY="346.0" prefHeight="32.0" prefWidth="150.0" promptText="procent servicii" />
+                <TextField fx:id="dataADM" layoutX="29.0" layoutY="395.0" prefHeight="32.0" prefWidth="150.0" promptText="data angajarii" />
+         </children>
+      </AnchorPane>
+      <Label fx:id="mesajFinalAdd" layoutX="489.0" layoutY="115.0" prefHeight="165.0" prefWidth="171.0" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Bookman Old Style Bold" size="16.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

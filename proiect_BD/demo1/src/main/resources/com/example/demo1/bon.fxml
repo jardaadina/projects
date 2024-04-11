@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="EmitereBon" prefHeight="400.0" prefWidth="440.0" style="-fx-background-color: #e7f5fe;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.CompleteazaBon">
+    <children>
+        <AnchorPane prefHeight="403.0" prefWidth="220.0" style="-fx-background-color: #498fba;">
+            <children>
+                <TextField fx:id="idBon" layoutX="24.0" layoutY="60.0" prefHeight="39.0" prefWidth="166.0" promptText="id bon" />
+                <TextField fx:id="idProgramare" layoutX="24.0" layoutY="120.0" prefHeight="39.0" prefWidth="166.0" promptText="id programare" />
+                <TextField fx:id="data" layoutX="24.0" layoutY="183.0" prefHeight="39.0" prefWidth="166.0" promptText="data" />
+                <TextField fx:id="valoare" layoutX="24.0" layoutY="242.0" prefHeight="39.0" prefWidth="166.0" promptText="valoare" />
+            </children>
+        </AnchorPane>
+        <Button fx:id="inapoi" layoutX="258.0" layoutY="335.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="39.0" prefWidth="142.0" style="-fx-background-color: #498fba;" text="Inapoi" textFill="WHITE">
+            <font>
+                <Font name="Bookman Old Style Bold" size="16.0" />
+            </font>
+        </Button>
+        <Button fx:id="emiteBon" layoutX="258.0" layoutY="279.0" mnemonicParsing="false" onAction="#emiteBonOnAction" prefHeight="39.0" prefWidth="142.0" style="-fx-background-color: #498fba;" text="Emite Bon" textFill="WHITE">
+            <font>
+                <Font name="Bookman Old Style Bold" size="16.0" />
+            </font>
+        </Button>
+        <Label fx:id="mesajFinalBon" layoutX="240.0" layoutY="103.0" prefHeight="104.0" prefWidth="178.0" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Bookman Old Style Bold" size="16.0" />
+         </font></Label>
+    </children>
+</AnchorPane>

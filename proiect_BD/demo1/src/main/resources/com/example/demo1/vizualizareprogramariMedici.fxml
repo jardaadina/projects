@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="370.0" prefWidth="600.0" style="-fx-background-color: #e7f5fe;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.VizualizareProgramariMedici">
+    <children>
+        <Text fill="#0e64a1" layoutX="123.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PROGRAMARI">
+            <font>
+                <Font name="Bookman Old Style Bold" size="48.0" />
+            </font>
+        </Text>
+        <Button fx:id="inapoiProgramari" layoutX="448.0" layoutY="296.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="33.0" prefWidth="96.0" style="-fx-background-color: #498fba;" text="Inapoi" textFill="WHITE">
+            <font>
+                <Font name="Bookman Old Style Bold" size="20.0" />
+            </font>
+        </Button>
+        <TableView fx:id="tabelProgramariMedici" layoutX="68.0" layoutY="117.0" prefHeight="147.0" prefWidth="473.0">
+            <columns>
+                <TableColumn fx:id="nume" prefWidth="110.39999008178711" style="-fx-background-color: #498fba;" text="NUME" />
+                <TableColumn fx:id="prenume" minWidth="0.0" prefWidth="127.20002746582031" style="-fx-background-color: #498fba;" text="PRENUME" />
+                <TableColumn fx:id="data" minWidth="0.0" prefWidth="129.5999755859375" style="-fx-background-color: #498fba;" text="DATA" />
+                <TableColumn fx:id="ora" minWidth="0.0" prefWidth="102.4000244140625" style="-fx-background-color: #498fba;" text="ORA" />
+            <TableColumn fx:id="medic" minWidth="0.0" prefWidth="102.4000244140625" style="-fx-background-color: #498fba;" text="medic" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="440.0" style="-fx-background-color: #e7f5fe;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.ProgramareNoua">
+    <children>
+        <AnchorPane prefHeight="403.0" prefWidth="220.0" style="-fx-background-color: #498fba;">
+            <children>
+                <TextField fx:id="idPacient" layoutX="24.0" layoutY="101.0" prefHeight="39.0" prefWidth="166.0" promptText="idPacient" />
+                <TextField fx:id="data" layoutX="24.0" layoutY="162.0" prefHeight="39.0" prefWidth="166.0" promptText="data" />
+                <TextField fx:id="ora" layoutX="24.0" layoutY="225.0" prefHeight="39.0" prefWidth="166.0" promptText="ora" />
+                <TextField fx:id="idMedic" layoutX="24.0" layoutY="284.0" prefHeight="39.0" prefWidth="166.0" promptText="id medic" />
+            <TextField fx:id="idProgramare" layoutX="24.0" layoutY="37.0" prefHeight="39.0" prefWidth="166.0" promptText="id programare" />
+            <TextField fx:id="serviciu" layoutX="24.0" layoutY="339.0" prefHeight="39.0" prefWidth="166.0" promptText="serviciu" />
+            </children>
+        </AnchorPane>
+        <Button fx:id="inapoi" layoutX="258.0" layoutY="335.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="39.0" prefWidth="142.0" style="-fx-background-color: #498fba;" text="Inapoi" textFill="WHITE">
+            <font>
+                <Font name="Bookman Old Style Bold" size="16.0" />
+            </font>
+        </Button>
+        <Button fx:id="programeaza" layoutX="258.0" layoutY="279.0" mnemonicParsing="false" onAction="#programeazaOnAction" prefHeight="39.0" prefWidth="142.0" style="-fx-background-color: #498fba;" text="Programeaza" textFill="WHITE">
+            <font>
+                <Font name="Bookman Old Style Bold" size="16.0" />
+            </font>
+        </Button>
+        <Label fx:id="mesajFinalProgramare" layoutX="240.0" layoutY="103.0" prefHeight="104.0" prefWidth="178.0" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Bookman Old Style Bold" size="16.0" />
+         </font></Label>
+    </children>
+</AnchorPane>

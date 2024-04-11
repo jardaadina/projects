@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="580.0" prefWidth="480.0" style="-fx-background-color: #e7f5fe;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.AdaugaDateSistem">
+   <children>
+      <Button fx:id="updateADS" layoutX="312.0" layoutY="439.0" mnemonicParsing="false" onAction="#updateADSOnAction" prefHeight="42.0" prefWidth="134.0" style="-fx-background-color: #498fba;" text="ADAUGA" textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style Bold" size="12.0" />
+         </font>
+      </Button>
+      <AnchorPane prefHeight="580.0" prefWidth="211.0" style="-fx-background-color: #498fba;" AnchorPane.leftAnchor="0.0">
+         <children>
+            <TextField fx:id="numeADS" layoutX="30.0" layoutY="57.0" prefHeight="32.0" prefWidth="150.0" promptText=" nume" />
+            <TextField fx:id="prenumeADS" layoutX="29.0" layoutY="98.0" prefHeight="32.0" prefWidth="150.0" promptText="prenume" />
+            <TextField fx:id="parolaADS" layoutX="29.0" layoutY="142.0" prefHeight="32.0" prefWidth="150.0" promptText="parola" />
+            <TextField fx:id="cnpADS" layoutX="30.0" layoutY="187.0" prefHeight="32.0" prefWidth="150.0" promptText="CNP" />
+            <TextField fx:id="emailADS" layoutX="29.0" layoutY="318.0" prefHeight="32.0" prefWidth="150.0" promptText="email" />
+            <TextField fx:id="telADS" layoutX="29.0" layoutY="274.0" prefHeight="32.0" prefWidth="150.0" promptText="numar de telefon" />
+            <TextField fx:id="adresaADS" layoutX="29.0" layoutY="231.0" prefHeight="32.0" prefWidth="150.0" promptText="adresa" />
+            <TextField fx:id="ibanADS" layoutX="30.0" layoutY="360.0" prefHeight="32.0" prefWidth="150.0" promptText="iban" />
+            <TextField fx:id="rolADS" layoutX="30.0" layoutY="404.0" prefHeight="32.0" prefWidth="150.0" promptText="rol" />
+            <TextField fx:id="contractADS" layoutX="30.0" layoutY="447.0" prefHeight="32.0" prefWidth="150.0" promptText="numar contract" />
+            <TextField fx:id="dataADS" layoutX="29.0" layoutY="490.0" prefHeight="32.0" prefWidth="150.0" promptText="data angajarii" />
+            <TextField fx:id="salariuADS" layoutX="30.0" layoutY="534.0" prefHeight="32.0" prefWidth="150.0" promptText="salariu" />
+            <TextField fx:id="idADS" layoutX="29.0" layoutY="14.0" prefHeight="32.0" prefWidth="150.0" promptText="id" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="anuleazaADS" layoutX="312.0" layoutY="503.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="42.0" prefWidth="134.0" style="-fx-background-color: #498fba;" text="ANULEAZA" textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="mesajFinalAdd" layoutX="249.0" layoutY="112.0" prefHeight="165.0" prefWidth="171.0" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Bookman Old Style Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

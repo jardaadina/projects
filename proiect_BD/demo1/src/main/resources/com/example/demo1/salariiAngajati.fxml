@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.SalariiAngajati">
+    <children>
+        <AnchorPane layoutX="-2.0" layoutY="-1.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #e7f5fe;">
+            <children>
+                <Text fill="#0e64a1" fontSmoothingType="LCD" layoutX="30.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-background-color: #498fba;" text="SALARII" wrappingWidth="239.73672485351562">
+                    <font>
+                        <Font name="Bookman Old Style Bold" size="48.0" />
+                    </font>
+                </Text>
+                <Button fx:id="anuleazaSAD" layoutX="451.0" layoutY="335.0" mnemonicParsing="false" onAction="#anuleazaSAOnAction" prefHeight="42.0" prefWidth="134.0" style="-fx-background-color: #498fba;" text="ANULEAZA" textFill="WHITE">
+                    <font>
+                        <Font name="Bookman Old Style Bold" size="12.0" />
+                    </font>
+                </Button>
+                <Text layoutX="91.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="180.53681182861328" />
+                <TableView fx:id="tabelSalarii" layoutX="14.0" layoutY="88.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="311.0" prefWidth="362.0">
+                    <columns>
+                        <TableColumn fx:id="tabelNume" prefWidth="110.39996147155762" style="-fx-background-color: #498fba;" text="NUME" />
+                        <TableColumn fx:id="tabelPrenume" prefWidth="128.79999542236328" style="-fx-background-color: #498fba;" text="PRENUME" />
+                        <TableColumn fx:id="salariu" prefWidth="123.20001220703125" style="-fx-background-color: #498fba;" text="SALARIU" />
+                    </columns>
+                </TableView>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
